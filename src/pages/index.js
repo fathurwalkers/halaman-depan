@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -10,6 +11,9 @@ export default function Home() {
 
       <main>
         <h1>Hallo Dunia</h1>
+        <Link href="/random">
+          <a>take me top</a>
+        </Link>
       </main>
 
       <footer>
